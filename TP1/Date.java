@@ -10,7 +10,6 @@ package tp1;
  * @author Virginie Van den Schrieck
  *
  */
-//test
 
 public class Date {
 	
