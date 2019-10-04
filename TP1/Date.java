@@ -11,9 +11,9 @@ package tp1;
  *
  */
 
-//test 5
+
 public class Date {
-	//test
+	
 	//variables d'instance
 	int jour;
 	int mois;
