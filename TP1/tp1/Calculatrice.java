@@ -2,7 +2,7 @@ package tp1;
 
 /**
  * Cette classe modélise une calculatrice simplifiée avec une valeur courante et trois opérations. 
- * @author vvandens
+ * @author GauthB
  *
  */
 public class Calculatrice {

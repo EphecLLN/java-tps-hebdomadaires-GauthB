@@ -1,10 +1,10 @@
 /**
  * Classe Hello World pour le TP1 du cours de Java
  */
-package tp1;
+package tp2;
 
 /**
- * @author Virginie Van den Schrieck
+ * @author GauthB
  *
  */
 public class HelloWorld {

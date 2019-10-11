@@ -4,7 +4,7 @@
 package tp1;
 
 /**
- * @author Virginie Van den Schrieck
+ * @author GauthB
  *
  */
 public class HelloWorld {
