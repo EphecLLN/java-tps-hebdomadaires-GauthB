@@ -8,27 +8,42 @@ package tp3;
  *
  */
 public class ExerciceTDD {
-	double valeurCourante;
 	/**
-	 * Additionne un nombre à la valeur courante
-	 * @param n le nombre à ajouter à la valeur courante de la calculatrice
+	 * Cette méthode verifie si l'argument est pair
+	 * @param n est un nombre
+	 * @return vrai si le nombre est pair et faux si le nombre est impair
 	 */
-	public void ajoute(double n) {
-		valeurCourante+=n;
-	}
-	/**
-	 * Soustrait un nombre à la valeur courante
-	 * @param n le nombre à soustraire à la valeur courante de la calculatrice
-	 */
-	public void soustrait(double n) {
-		valeurCourante-=n;
+	public static boolean estPair(int n) {
+		return(n%2 ==0);//Modulo 2 (si egale à 0 est ok)
 	}
 	
 	/**
-	 * Elève la valeur courante au carré
+	 * Calcule le périmètre d'un carré
+	 * @param n la longueur d'un coté du carré
+	 * @return le périmètre du carré (de meme unité de longueur de n)
 	 */
-	public void carre() {
-		valeurCourante*=valeurCourante;
+	public static double perimCarre(double n) {
+		return (n*4);
+	}
+	
+	/**
+	 * Cette méthode vérifie la présence d'un caractère dans une chaine de caractères
+	 * @param j le caractère à retrouver
+	 * @param s la chaine de caractères dans laquelle on recherche le caractère
+	 * @return vrai si le caractère appartient à la chaine de caractère, faux sinon
+	 */
+	public static boolean contientCar(char j, String s) {
+		for(int i=0; i<s.length(); i++) {
+			if(s.charAt(i)==j) return true;
+		}
+		return false;
+	}
+	
+	public  static void  main(String [] args) {
+		System.out.print(estPair(2)+"\n");
+		System.out.println(perimCarre(2));
+		System.out.println(contientCar("g", "std"));
+		
 	}
 	
 	

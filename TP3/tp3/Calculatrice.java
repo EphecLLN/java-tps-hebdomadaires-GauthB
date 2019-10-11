@@ -58,8 +58,9 @@ public class Calculatrice {
 	
 	/**
 	 * Elève la valeur courante au carré
+	 * @param d 
 	 */
-	public void carre() {
+	public void carre(double d) {
 		valeurCourante*=valeurCourante;
 	}
 	
